@@ -11,7 +11,7 @@
       "openFiles": []
     },
     "vscode": {
-        "settings": {
+      "settings": {
         "python.terminal.useEnvFile": true,
         "python.envFile": "${workspaceFolder}/.env"
       },
