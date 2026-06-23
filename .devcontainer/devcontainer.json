@@ -11,6 +11,10 @@
       "openFiles": []
     },
     "vscode": {
+        "settings": {
+        "python.terminal.useEnvFile": true,
+        "python.envFile": "${workspaceFolder}/.env"
+      },
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python"
