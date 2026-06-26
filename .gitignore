@@ -3,3 +3,8 @@ notebooks/cifar_net.pth
 notebooks/newbie*.png
 .ipynb_checkpoints/
 .env
+node_modules/
+.venv/
+dist/
+build/
+.vscode/
