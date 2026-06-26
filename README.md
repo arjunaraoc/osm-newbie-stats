@@ -8,7 +8,7 @@ Everything you do here is contained within this one codespace. There is no repos
 
 AP new editor counts and time taken for their first changeset review based on discussion comments
 
-ap_new_editors.ipynb : main notebook
+osm_newbie_activity.ipynb : main notebook
 
 uses OSMCHA api for identification of changesets using a AOI filter which specifies the time period also and OSM API for discussion timestamps.
 
