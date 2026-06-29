@@ -1,6 +1,7 @@
 notebooks/data/*
 # Step 2: Allow this specific log file
 !notebooks/data/ap\ districts\ 2026\ simplified.geojson
+!notebooks/data/Analysis\ draft\ OSM\ User\ diary.md
 notebooks/cifar_net.pth
 notebooks/newbie*.png
 .ipynb_checkpoints/
