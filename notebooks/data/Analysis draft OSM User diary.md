@@ -129,4 +129,4 @@ Github Co pilot was very helpful in coming up with the initial version of softwa
 ## References
 [^1]: [Analyzing the Changesets of OSM Newcomers](https://heigit.org/analyzing-the-changesets-of-osm-newcomers/), Heigit, 29 January 2024.
 
-[^2]: Toshikaju Seto, Hiroshi Kanasugi, Yuichiro Nashimura, "Quality Verification of Volunteered Geographic Information Using OSM Notes Data in a Global Context (2.Related work)", *ISPRS Int. J. Geo-Inf.*, 6 June 2020.
+[^2]: Toshikaju Seto, Hiroshi Kanasugi, Yuichiro Nashimura, [Quality Verification of Volunteered Geographic Information Using OSM Notes Data in a Global Context (2.Related work)](https://www.mdpi.com/2220-9964/9/6/372)", *ISPRS Int. J. Geo-Inf.*, 6 June 2020.
