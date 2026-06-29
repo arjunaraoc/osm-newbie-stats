@@ -1,5 +1,20 @@
 # Insights from new OSM editors at a province level
 
+Highlights
+
+📊 Analyzing Q1 2026 new OSM editors in Andhra Pradesh, India reveals critical onboarding patterns.
+
+✨ Only 32% of a newcomer's very first edits are completely free of technical errors.
+
+⚠️ Low-severity issues (like abbreviation errors or duplicate node-way geometries) impact 49% of changesets.
+
+📉 Retention is critically low: under 3% of new mapping accounts continue editing after receiving feedback.
+
+💡 Localized, faster community validation workflows are essential to support and retain mapping talent.
+
+
+
+
 ![OSM newbie editor changesets quality (severity) distribution in Q1 2026 for Andhra Pradesh, India](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/OSM-Newbie-severity-AP-India-Q1-2026.png/330px-OSM-Newbie-severity-AP-India-Q1-2026.png)
 *OSM newbie editor changesets quality (severity) distribution in Q1 2026 for Andhra Pradesh, India*
 
@@ -109,8 +124,9 @@ The analysis of OSM new editors' first changesets showed that 32% of first chang
 Repeating the study  in future for a longer period with a larger count of changesets can help improve the accuracy of statistics. Using Ohsome Now API, the number of features, the types of features  edited can also be analyzed for active new editors to nurture them.
 
 ## Acknowledgements
-Github Co pilot was very helpful in coming up with the initial version of software program from a simple chat prompt. The draft of this article was updated manually based on useful review feedback from Gemini AI.
+Github Co pilot was very helpful in coming up with the initial version of software program from a simple chat prompt. The draft of this article was updated manually based on useful review feedback from Gemini AI. It also helped in converting the wiki code draft to kramdown format of OSM User diary.
 
 ## References
 [^1]: [Analyzing the Changesets of OSM Newcomers](https://heigit.org/analyzing-the-changesets-of-osm-newcomers/), Heigit, 29 January 2024.
+
 [^2]: Toshikaju Seto, Hiroshi Kanasugi, Yuichiro Nashimura, "Quality Verification of Volunteered Geographic Information Using OSM Notes Data in a Global Context (2.Related work)", *ISPRS Int. J. Geo-Inf.*, 6 June 2020.
