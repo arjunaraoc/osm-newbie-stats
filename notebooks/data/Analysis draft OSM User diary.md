@@ -1,22 +1,20 @@
-# Insights from new OSM editors at a province level
-
-Highlights
-
-📊 Analyzing Q1 2026 new OSM editors in Andhra Pradesh, India reveals critical onboarding patterns.
-
-✨ Only 32% of a newcomer's very first edits are completely free of technical errors.
-
-⚠️ Low-severity issues (like abbreviation errors or duplicate node-way geometries) impact 49% of changesets.
-
-📉 Retention is critically low: under 3% of new mapping accounts continue editing after receiving feedback.
-
-💡 Localized, faster community validation workflows are essential to support and retain mapping talent.
+# First changeset review insights for Andhra Pradesh, India
 
 
+<div class="alert alert-info" markdown="1">
 
+### 📊 First changeset review insights for Andhra Pradesh, India
 
-![OSM newbie editor changesets quality (severity) distribution in Q1 2026 for Andhra Pradesh, India](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/OSM-Newbie-severity-AP-India-Q1-2026.png/330px-OSM-Newbie-severity-AP-India-Q1-2026.png)
-*OSM newbie editor changesets quality (severity) distribution in Q1 2026 for Andhra Pradesh, India*
+* **🙋‍♂️ Review Requests:** 32% of newcomers requested a review of their first changeset.
+* **✨ Technical Quality:** 32% of a newcomer's very first edits are completely free of technical errors.
+* **⚠️ Low-Severity Issues:** 49% of changesets have low serverity errors like abbreviation issues or duplicate node-way geometries
+
+---
+
+💡 *Localized, faster community validation workflows are essential to  support mapping talent.*
+
+</div>
+
 
 About 450 editors join [OpenStreetMap](https://wiki.openstreetmap.org/wiki/About_OpenStreetMap) and contribute their first edit everyday based on a study for the year 2023.[^1] Despite diverse OSM  review tools and processes, there were few studies about OSM new editor data quality at country level.[^2] Very little is known about their contribution quality and persistence  at province level. This need was identified in the first ever desk analysis of [State of the map for Andhra Pradesh in 2025](https://wiki.openstreetmap.org/wiki/Andhra_Pradesh/SotM). Even attempting to statistically analyze is not easy, given the need to query databases with specialized programs.  OSM Changeset Analyser([OSMCha](https://wiki.openstreetmap.org/wiki/OSMCha)) is a very good tool for reviews. Using OSMCha and OSM APIs, I built a small Python Jupyter notebook program with help from Github Copilot.  I applied this to understand the new editors contributions for [Andhra Pradesh](https://wiki.openstreetmap.org/wiki/Andhra_Pradesh) province of [India](https://wiki.openstreetmap.org/wiki/India) for Q1, 2026. I found that 32% of first edit changesets are of good quality. 49%  have low severity issues. Only 3% continue the edit  activity in the subsequent 30 days after discussion on their first changesets. This program can be reused easily by  modifying OSMCHA's AOI filter identifier and OSMCHA user token.
 
@@ -118,13 +116,13 @@ A flow diagram which categorizes the changesets  based on issue resolution when 
 2. **Enable the new editor to fix issues with low severity:** While reviewing, minor mistakes were fixed and the same was informed to the editor via discussion comment. Changeset resolution was set to 'Resolved'. As suggested in [OSMCha review tips](https://wiki.openstreetmap.org/wiki/Welcome_tool/OSMCha#To_Fix_or_Not_to_Fix), it is better to give suggestions for low severity issues through discussion, to encourage the editor to make required changes.
 3. **Explain rating bad is required even for minor mistakes due to software limitation:** Another suggestion that I missed is to explain the limitation in assigning good/bad for a changeset in discussion comment, to not discourage new editors when then see a review marked as bad.
 
-## Conclusion and Further work
-The analysis of OSM new editors' first changesets showed that 32% of first changesets are of good quality. 49% changesets have low severity issues. Only 3% of new editors continue the edit  activity after discussion on their first changesets.
+## Conclusion
+The analysis of OSM new editors' first changesets showed that 32% of newcomers requested a review of their first changeset. 32% of first changesets are of good quality. 49% changesets have low severity issues. Only 3% of new editors continue the edit  activity after discussion on their first changesets. Localized, faster community validation workflows are essential to  support new mapping talent
 
-Repeating the study  in future for a longer period with a larger count of changesets can help improve the accuracy of statistics. Using Ohsome Now API, the number of features, the types of features  edited can also be analyzed for active new editors to nurture them.
+
 
 ## Acknowledgements
-Github Co pilot was very helpful in coming up with the initial version of software program from a simple chat prompt. The draft of this article was updated manually based on useful review feedback from Gemini AI. It also helped in converting the wiki code draft to kramdown format of OSM User diary.
+Github Co pilot was very helpful in coming up with the initial version of software program from a simple chat prompt. The draft of this article was updated manually based on useful review feedback from Gemini AI. It also helped in converting the wiki code draft to Kramdown format of OSM User diary.
 
 ## References
 [^1]: [Analyzing the Changesets of OSM Newcomers](https://heigit.org/analyzing-the-changesets-of-osm-newcomers/), Heigit, 29 January 2024.
