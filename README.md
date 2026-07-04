@@ -1,16 +1,21 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Analysis of OSM New editor first changeset reviews
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Code:
+* notebooks/osm_newbie_activity.ipynb : main notebook
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+* notebooks/viz_osm_newbie.ipynb : additional analysis and visualization code for the data collected via main notebook.
 
-AP new editor counts and time taken for their first changeset review based on discussion comments
 
-osm_newbie_activity.ipynb : main notebook
+## Inputs:
+* OSMCha database access via API represented by the AOI filter id. OSMCHA_TOKEN should be set in .env file which is  not updated to repository. OSMCHA AOI ID should be set in main notebook.
 
-uses OSMCHA api for identification of changesets using a AOI filter which specifies the time period also and OSM API for discussion timestamps.
+* OSM API
+notebooks/data/ap districts 2026 simplified.geojson :Andhra Pradesh map 
 
-OSMCHA_TOKEN should be set in .env file which is  not updated to repository. 
+## Outputs:
+* notebooks/data/Analysis draft OSM User diary.md : Manually compilted Report from the analysis
+
+
+
 
